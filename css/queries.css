@@ -1,0 +1,133 @@
+
+
+
+
+
+/*Small Tablet to Big Tablet: from 768 to 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .top-container {
+    height: 38.1rem;
+    width: 129.3%;
+  }
+  .middle-container {
+    width: 148.8%;
+  }
+  .bottom-container{
+    width: 148.8%;
+  }
+  .mountain {
+    width: 111.4%;
+  }
+  .line-1 {
+    font-size: 5.1rem;
+    left: 5%;
+  }
+  .nut {
+    top: 3rem;
+    right: 3rem;
+  }
+  .shipping {
+    top: 92.4%;
+  }
+}
+
+
+
+
+/*Big Tablet to 1200px (width smaller than the 1140px row)*/
+
+
+
+
+
+/*Small Phones to Small Tablets from 481px to 767px*/
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .top-container {
+    width: 187.8%;
+    height: 39rem;
+  }
+  .mountain {
+    top: 10.14rem;
+    width: 120%;
+  }
+  .line-1 {
+    font-size: 5.3rem;
+    left: 10%;
+  }
+  .nut {
+    top: 4rem;
+    right: 2rem;
+  }
+  .shipping {
+    top: 30rem;
+    height: 9rem;
+    width: 19rem;
+  }
+  .middle-container {
+    width: 213.8%;
+  }
+  .bottom-container{
+    width: 213.8%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 559px) {
+  .top-container {
+    width: 273.6%;
+    height: 145.2rem;
+  }
+
+}
+
+
+/* Small Phone 0 to 480px */
+@media only screen and (max-width: 480px){
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .top-container {
+    width: 112.1%;
+    padding-bottom: 18.0625rem;
+    height: 39.4rem;
+  }
+  .mountain {
+    top: 20.8rem;
+    width: 119.6%;
+  }
+  .nut {
+    top: 15rem;
+    left: 55rem;
+  }
+  .shipping {
+    top: 44.2rem;
+  }
+  .line-1 {
+    font-size: 5rem;
+    left: 6.5rem;
+    top: 11.25rem;
+  }
+  .sun {
+    right: 34.1rem;
+  }
+  .pro-p {
+    font-size: 2.2rem;
+    bottom: 6rem;
+    left: 7rem;
+  }
+  .middle-container {
+    width: 127.6%;
+  }
+  .bottom-container{
+    width: 127.6%;
+  }
+  .footer-link {
+    left: 1.75rem;
+  }
+  .botp {
+    left: 1.6875rem;
+  }
+  .secondexample {
+    right: 11.75rem;
+  }
+}

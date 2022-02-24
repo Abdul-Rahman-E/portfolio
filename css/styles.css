@@ -1,0 +1,498 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+hr {
+  padding: 0.625rem;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+    position: relative;
+}
+.linefirst {
+  position: relative;
+  top: 4.6875rem;
+}
+h1 {
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 2.8125rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pro-p {
+  font-family: 'consolas', cursive;
+  font-weight: normal;
+  font-size: 1.5625rem;
+  text-align: center;
+  position: relative;
+  bottom: 5rem;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  width: 86.8%;
+  padding: 6.25rem;
+  height: 35rem;
+  animation: mymove 11s infinite;
+  animation-direction: alternate-reverse;
+}
+/*  from {background-color: #E4F9F5;}
+  to {background-color: #FFBC80;}
+}
+*/
+@keyframes mymove {
+
+0%   { background-color: #E4F9F5;}
+50%  { background-color: #FFBC80;}
+100% { background-color: #3F3351;}
+}
+.inner-top {
+  position: absolute;
+  left: 0rem;
+}
+.ar {
+  height: 12.5rem;
+  weight: 12.5rem;
+  padding-top: 4.375rem;
+  padding-bottom: 0.75rem;
+}
+.skills h2 {
+  padding-top: 0.9375rem;
+}
+.middle-container {
+  background-color: #f5f5f5;
+  width: auto;
+  height: 95rem;
+  background-color: #E4F9F5;
+  position: relative;
+  animation: mymoveo 11s infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes mymoveo {
+/*  from {background-color: #E4F9F5;}
+  to {background-color: #FFBC80;}
+}
+*/
+0%   { background-color: #E4F9F5;}
+50%  { background-color: #FFBC80;}
+100% { background-color: #3F3351;}
+}
+.middle-container h1 {
+  color: #BF9270;
+}
+.middle-container h2 {
+  color: #BF9270;
+  font-size: 1.6875rem;
+}
+.middle-container h3 {
+  color: #A1B57D;
+}
+.cam {
+  width: 13.75rem;
+  height: 13.75rem;
+  position: relative;
+  top: 8.125rem;
+  left: 36.125rem;
+}
+.midline {
+  position: relative;
+  top: 0.1rem;
+}
+.bottom-container {
+  background-color: #E4F9F5;
+  position: relative;
+  height: 5.312rem;
+  animation: mymovez 11s infinite;
+  animation-direction: alternate-reverse;
+}a
+@keyframes mymovez {
+/*  from {background-color: #E4F9F5;}
+  to {background-color: #FFBC80;}
+}
+*/
+0%   { background-color: #FF9F45;}
+50%  { background-color: #FFEEAD;}
+100% { background-color: #FBF8F1;}
+}
+.botp {
+  margin-bottom: 0rem;
+  position: relative;
+  top: 0.5625rem;
+}
+.bottom-container h1{
+  color: #66BFBF;
+  padding-top: 1.5625rem;
+  padding-bottom: 0.625rem;
+}
+
+.bottom-container h2{
+  color: #66BFBF;
+}
+.bottom-container h3{
+  color: #11999E;
+}
+.footer-link {
+  color: #11999E;
+  position: relative;
+  top: 1.125rem;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 75rem;
+  top: 3.125rem;
+  animation-name: secondexample;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+  animation-direction: alternate;
+}
+@keyframes secondexample {
+  0%   { left:75rem; top:3.125rem;}
+  100% { left:57rem; top:3.125rem;}
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 28.125rem;
+  top:15.5rem;
+  animation-name: example;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+  animation-direction: alternate;
+}
+@keyframes example {
+  0%   { left:0.125rem; bottom:21.875rem;}
+  100% { left:28.125rem; bottom:21.6875rem;}
+}
+.mountain {
+  z-index: 1;
+  position: relative;
+  top: 11.0625rem;
+  width: 94.9375rem;
+
+}
+
+.nut {
+  z-index: 2;
+  position: absolute;
+  top: 0rem;
+  right: 14.9375rem;
+  height: 41.5rem;
+  width: 25rem;
+}
+.sun {
+  z-index: 0;
+  position: absolute;
+  right: 44.6875rem;
+  width: 9.375rem;
+  top: 17.8125rem;
+  animation-name: sunmotion;
+  animation-iteration-count: infinite;
+  animation-duration: 22s;
+  animation-direction: normal;
+
+}
+@keyframes sunmotion {
+  0%   { bottom:0rem; top:25rem;}
+  50%  { bottom:17.8125rem; top:-8.3125rem;}
+  100% { bottom:0rem; top:30rem;}
+}
+
+.line-1{
+    position: relative;
+    top: 10%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 0.125rem solid black;
+    font-size: 4rem;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 2s steps(44) 1s 1 normal both,
+             blinkTextCursor 350ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 8em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: black;}
+  to{border-right-color: transparent;}
+}
+.fly {
+  position: absolute;
+  animation-name: birding;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: normal;
+  top: 11.25rem;
+}
+@keyframes birding {
+  0%   { left:0.125rem; bottom:21.875rem;}
+  100% { left:50rem; bottom:21.875rem;}
+}
+
+.shipping {
+  position: absolute;
+  top: 30rem;
+  height: 6.25rem;
+  width: 14.0rem;
+  z-index: 0;
+
+  animation-name: boating;
+  animation-duration: 50s;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-play-state: running;
+}
+@keyframes boating {
+  0%   { left:3%; bottom:21.875rem; opacity: 0;}
+  10%  { left:3%; bottom:21.875rem; opacity: 1;}
+  90%  { left:85%; bottom:21.875rem; opacity: 1;}
+  100% { left:85%; bottom:21.875rem; opacity: 0;}
+}
+}
+.skill-row {
+  width: 50%;
+  margin: 6.25rem auto 6.25rem auto;
+}
+.skill-row h3{
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+
+}
+.skill-row p {
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  bottom: 0.75rem;
+  text-align: justify;
+  line-height: 1.5
+}
+.skill-row img {
+}
+.gione {
+  height: 13.75rem;
+  width: 13.75rem;
+  position: relative;
+  top: 7.6rem;
+}
+.fa {
+  padding: 0.1rem;
+  padding-top: 0.50rem;
+  padding-bottom: 0.50rem;
+  font-size : 0.8125rem;
+  width: 2.175rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 0.3125rem 0.125rem;
+
+}
+.fa:hover {
+    opacity: 0.7;
+    background-color: #398AB9;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.profile {
+  padding: 0rem 0rem 1.25rem 0rem;
+}
+.adj {
+  position: absolute;
+  top: 63rem;
+  right: 36.75rem;
+  -webkit-animation:colorchange 10s infinite alternate;
+        }
+
+      @-webkit-keyframes colorchange {
+        0% {
+
+          color: #A1B57D;
+        }
+
+        50% {
+
+          color: #524A4E;
+
+        }
+
+        100% {
+
+          color: #A1B57D;
+        }
+      }
+.adj-one {
+  right: 19.88rem;
+  top: 46rem;
+  color: #A1B57D;
+  position: relative;
+-webkit-animation:colorchange 10s infinite alternate;
+      }
+
+    @-webkit-keyframes colorchange {
+      0% {
+
+        color: #A1B57D;
+      }
+
+      50% {
+
+        color: #524A4E;
+
+      }
+
+      100% {
+
+        color: #A1B57D;
+      }
+    }
+.githtw {
+  position: relative;
+  color: #BF9270;
+  font-weight: 800;
+  font-size: 1.3875rem;
+  -webkit-animation:colorchangi 8s infinite alternate;
+        }
+
+      @-webkit-keyframes colorchangi {
+        0% {
+
+          color: #A1B57D;
+        }
+
+        50% {
+
+          color: #524A4E;
+
+        }
+
+        100% {
+
+          color: #A1B57D;
+        }
+      }
+.githtr {
+  position: relative;
+  font-size: 0.98rem;
+  -webkit-animation:colorchanges 10s infinite alternate;
+        }
+
+      @-webkit-keyframes colorchanges {
+        0% {
+
+          color: #524A4E;
+        }
+
+        50% {
+
+          color: #524A4E;
+
+        }
+
+        100% {
+
+          color: #C0A080;
+        }
+      }
+.skilrowp{
+  position: relative;
+  top: 4.1rem;
+  right: 11.75rem;
+  text-align: justify;
+}
+.learn {
+  left: 4.3125rem;
+  top: 4.125rem;
+}
+.skillh {
+  font-weight: bold;
+  font-size: 2.1875rem;
+  position: relative;
+  top: 6.25rem;
+  color: #BF9270;
+  -webkit-animation:colorchangename 10s infinite alternate;
+        }
+
+      @-webkit-keyframes colorchangename {
+        0% {
+
+          color: #BF9270;
+        }
+
+        50% {
+
+          color: #362222;
+
+        }
+
+        100% {
+
+          color: #BF9270;
+        }
+      }
+
+.contact-me {
+  position: relative;
+  top: 13.75rem;
+}
+.mynamespa {
+  font-weight: lighter;
+}
+.myname {
+  font-weight: bold;
+  color: #BF9270;
+  -webkit-animation:colorchangename 10s infinite alternate;
+        }
+
+      @-webkit-keyframes colorchangename {
+        0% {
+
+          color: #BF9270;
+        }
+
+        50% {
+
+          color: #362222;
+
+        }
+
+        100% {
+
+          color: #BF9270;
+        }
+      }
